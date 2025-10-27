@@ -38,7 +38,7 @@ const About = () => {
                   </div>
                   <div className="md:w-3/4">
                     <h3 className="font-bold text-xl text-gray-400">
-                      Junior Developer
+                      Developer
                     </h3>
                     <p className="italic text-gray-500">
                       Alternative Technology
