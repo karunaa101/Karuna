@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/IMG_0308.png";
+import image from "../../assets/mii.png";
 
 const Hero = () => {
   const scrollToSection = (id) => {
@@ -29,7 +29,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <button
               onClick={() => scrollToSection("work")}
-              className="bg-black hover:bg-[#1d8a7f] text-white px-12 py-5 rounded-sm font-medium text-xl transition-colors"
+              className="bg-black hover:bg-[#1d8a7f] text-white px-12 py-5 rounded-sm font-medium text-xl transition-colors cursor-pointer"
             >
               View My Work
             </button>
@@ -46,12 +46,12 @@ const Hero = () => {
       {/* Single vertical border line between */}
       <div className="w-[1px] bg-black"></div>
 
-      <div className="lg:w-1/2 flex justify-center items-center bg-[#ffc901] border-t border-b border-r border-black p-6">
+      <div className="lg:w-1/2 flex justify-center items-start bg-[#ffc901] border-t border-b border-r border-black p-6">
         <div className="relative max-w-md my-20 lg:my-0">
           <img
             src={image}
             alt="k. - Web Developer"
-            className="w-full relative shadow-lg"
+            className="w-full"
           />
         </div>
       </div>

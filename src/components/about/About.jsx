@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../assets/kkk.jpg";
+import image from "../../assets/kkk.png";
 
 const About = () => {
   return (
@@ -8,11 +8,11 @@ const About = () => {
         <div className="mx-auto px-0">
           <div className="border border-black flex flex-col lg:flex-row items-stretch w-full min-h-[650px]">
             {/* Left Side */}
-            <div className="lg:w-1/2 w-full bg-black flex justify-center items-center p-6">
+            <div className="lg:w-1/2 w-full bg-white flex justify-center items-end px-8">
               <img
                 src={image}
                 alt="About me"
-                className="max-w-full max-h-[600px] object-contain rounded-md shadow-lg"
+                className="max-w-full max-h-[600px] object-contain"
               />
             </div>
 
@@ -20,12 +20,12 @@ const About = () => {
             <div className="hidden lg:block w-px bg-black" />
 
             {/* Right Side */}
-            <div className="lg:w-1/2 w-full px-8 md:px-16 py-12 flex flex-col justify-center">
+            <div className="lg:w-1/2 w-full px-8 md:px-16 py-12 flex flex-col justify-center bg-black">
               <div className="mb-8">
-                <h2 className="text-4xl md:text-5xl mb-6 text-start text-gray-900 font-medium">
+                <h2 className="text-4xl md:text-5xl mb-6 text-start text-gray-300 font-medium">
                   About Me
                 </h2>
-                <p className="text-gray-600 mb-8 text-lg">
+                <p className="text-gray-400 mb-8 text-lg">
                   An aspiring tech individual.
                 </p>
               </div>
@@ -33,17 +33,17 @@ const About = () => {
               <div className="relative border-l-2 border-gray-200 ml-4 space-y-8">
                 <div className="flex flex-col md:flex-row relative pl-8 group">
                   <span className="absolute -left-[9px] top-2 w-4 h-4 rounded-full bg-[#22a094] border-4 border-white shadow-md transition-all duration-300 group-hover:scale-125"></span>
-                  <div className="font-medium md:w-1/4 mb-2 md:mb-0 text-gray-500">
+                  <div className="font-medium md:w-1/4 mb-2 md:mb-0 text-gray-300">
                     2023 - Present
                   </div>
                   <div className="md:w-3/4">
-                    <h3 className="font-bold text-xl text-gray-800">
+                    <h3 className="font-bold text-xl text-gray-400">
                       Junior Developer
                     </h3>
-                    <p className="italic text-gray-600">
+                    <p className="italic text-gray-500">
                       Alternative Technology
                     </p>
-                    <p className="mt-2 text-gray-700 leading-relaxed">
+                    <p className="mt-2 text-gray-300 leading-relaxed">
                       Leading frontend projects, building responsive React
                       websites and Flutter apps, collaborating with UX
                       designers, and optimizing performance.
@@ -54,15 +54,15 @@ const About = () => {
                 {/* Timeline Item */}
                 <div className="flex flex-col md:flex-row relative pl-8 group">
                   <span className="absolute -left-[9px] top-2 w-4 h-4 rounded-full bg-[#22a094] border-4 border-white shadow-md transition-all duration-300 group-hover:scale-125"></span>
-                  <div className="font-medium md:w-1/4 mb-2 md:mb-0 text-gray-500">
+                  <div className="font-medium md:w-1/4 mb-2 md:mb-0 text-gray-300">
                     Aug 2022 - Nov 2022
                   </div>
                   <div className="md:w-3/4">
-                    <h3 className="font-bold text-xl text-gray-800">
+                    <h3 className="font-bold text-xl text-gray-400">
                       Frontend Developer
                     </h3>
-                    <p className="italic text-gray-600">BrandAd Inc.</p>
-                    <p className="mt-2 text-gray-700 leading-relaxed">
+                    <p className="italic text-gray-500">BrandAd Inc.</p>
+                    <p className="mt-2 text-gray-300 leading-relaxed">
                       Built responsive websites with React, collaborated with UX
                       designers, and optimized performance.
                     </p>
@@ -92,7 +92,7 @@ const About = () => {
                 <a
                   href="/Karuna.pdf"
                   download
-                  className="inline-flex items-center gap-2 bg-[#ff90e8] hover:bg-gray-900 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg"
+                  className="inline-flex items-center gap-2 bg-[#ff90e8] hover:bg-gray-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 transform hover:-translate-y-1 shadow-md hover:shadow-lg"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
