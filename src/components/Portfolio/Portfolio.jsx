@@ -26,7 +26,7 @@ export default function Portfolio() {
 
             <div className="flex space-x-8 text-3xl">
               <a
-                href="https://github.com/carunaaa"
+                href="https://github.com/karunaa101"
                 aria-label="GitHub"
                 className="text-black hover:text-pink-400 transition-colors duration-300"
                 target="_blank"

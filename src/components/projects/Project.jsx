@@ -58,7 +58,7 @@ const Project = () => {
       tags: ["Python", "Streamlit"],
       bgColor: "bg-[#ffc901]",
       logo: python,
-      link: "https://github.com/carunaaa/GoldSage",
+      link: "https://github.com/karunaa101/GoldSage",
       inProgress: false,
     },
     {
@@ -69,7 +69,7 @@ const Project = () => {
       tags: ["HTML", "Tailwind", "JavaScript"],
       bgColor: "bg-[#91a8ed]",
       logo: tailwind,
-      link: "https://carunaaa.github.io/kye/",
+      link: "https://karunaa101.github.io/kye/",
       inProgress: false,
     },
   ];
