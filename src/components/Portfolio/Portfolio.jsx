@@ -44,7 +44,9 @@ export default function Portfolio() {
                 <FiLinkedin />
               </a>
               <a
-                href="mailto:devkotakaruna06@example.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=karunadevkota101@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Email"
                 className="text-black hover:text-red-600 transition-colors duration-300"
               >
